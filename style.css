@@ -1,0 +1,29 @@
+.destacado {color: red; background-color: aquamarine;}
+
+.navegacion {
+    display: flex; 
+    height: 200px;
+    background-color: lightblue;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+.principal{
+    background-color: gray;
+}
+
+.enlaces{
+    display: flex;
+ }
+ 
+.enlaces li {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px ;
+
+ } 
+
+.enlaces li a {
+    text-decoration: none;
+}

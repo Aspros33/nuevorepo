@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>El primer documento HTML</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" > 
+
+</head>
+<body class="cuerpo">
+    <header class="encabezado">
+        <nav class="navegacion">
+            <a class="navegacion__enlace" href="#presentacion">
+              <h2 class="navegacion__titulo">Informatorio</h2>
+            </a>
+            <ul class="enlaces">
+              <li class="enlaces__item">
+                <a class="enlaces__enlace" href="#presentacion">Inicio</a>
+              </li>
+              <li class="enlaces__item">
+                <a class="enlaces__enlace" href="#sobre-mi">Sobre mi</a>
+              </li>
+              <li class="enlaces__item">
+                <a class="enlaces__enlace" href="#proyectos">Proyectos</a>
+              </li>
+            </ul>
+          </nav>
+
+    </header>
+    <main class="principal">
+        <section class="presentacion" id="presentacion"> 
+            <div class="presencation_contenedor_info">
+                <h1 class="presentacion_titulo"> Soy desarrollador</h1>
+                <p class="presentacion_texto"> soy estudiante de sistemas de informacion, aprendi a programar desde el 2017 
+                    en lenguaje python, mysql, javascrypt</p>
+                    <div class="presentacion_contenedor_botones">
+                        
+                        <a href="./assets/docs/cv.pdf" target="_blank" class="boton_oscuro" role="button"> sobre mi</a>
+                    </div>           
+            </div>
+        </section>
+        
+        <article class="articulo sobre mi" id="sobre-mi">
+            <h2 class="articulo__titulo"> un poco sobre mi </h2>
+            <div class="articulo__contenedor_descripciones"> 
+                <section class="seccion_descripcion">
+
+                    <div class="seccion_descripcion__porta_retrato">
+                            <img class="seccion_descripcion__image"
+                                src="./assets/images/profile/malmsteen.png" 
+                                    alt=" trabajando"     
+                                        title="en la oficina">                
+                    </div>
+                    <div class="seccion_descripcion__info scroll_fino"
+                    aria-label="descripcion personal" >
+
+
+                        <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+                        Mi historia
+                        </h3>
+
+                        <p class="seccion_descripcion__parrafo"
+                        aria-label="Detalles de mi historia"
+                        aria-describedby="mi_historia_titulo">estudio ingenieria en sistemas en la universidad tecnologica,
+                        aun continuo cursando el 3er añó, con materias de programacion y diseño de sistemas. 
+                         
+                        rem incidunt animi iusto magnam amet, cum nisi perferendis ut atque esse 
+                        soluta pariatur enim quasi tempora, impedit, cumque 
+                        quisquam.</p>
+
+                        <p class="seccion_descripcion__parrafo" 
+                        aria-label="Detalles de mi historia"
+                        aria-describedby="mi_historia_titulo"  >
+                        Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Perferendis optio, asperiores eveniet dol
+                        oremque eius quidem aliquid harum! Voluptas natus
+                        sequi beatae itaque molestias sapiente necessitatibus,
+                        fugit commodi iusto, nostrum rem. </p>
+                        
+                        <p class="seccion_descripcion__parrafo" 
+                        aria-label="Detalles de mi historia"
+                        aria-describedby="mi historia titulo"> 
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Explicabo sunt debitis impedit ipsa iste, aliquid ipsum
+                            magnam maxime adipisci nulla praesentium omnis invento
+                            re, vel incidunt earum saepe commodi? Aspernatur, voluptates?
+                        </p>
+                        <p class="seccion_descripcion__parrafo" 
+                        aria-label="Detalles de mi historia"
+                        aria-describedby="mi historia titulo"> 
+                            Lorem ipsum dolor sit amet consectetu
+                            r adipisicing elit. Perferendis officiis hic
+                            vitae placeat voluptatibus neque fugiat, dolores
+                            quo quidem est voluptatum repellat a pariatur
+                            dignissimos molestiae assumenda delectus
+                            nesciunt asperiores.
+                            
+                        </p>
+        
+                    </div>            
+
+                </section>
+                <section class="seccion_descripcion">
+                    <div class="seccion_descripcion__info scroll_fino" 
+                     aria-label="descripcion personal">
+                        <h3 class="seccion_descripcion__titulo
+                        " id="mis_hobbies_titulo"> mis hobbies</h3>
+                        <p class="seccion_descripcion__parrafo"
+                        aria-label="Detalles de mis hobbies"
+                        aria-describedby="mis_hobbies_titulo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. At odio qui ipsa autem et dicta ratione neque excepturi inventore nisi ad adipisci deleniti, nihil aut saepe modi vero, deserunt consequatur!
+                           </p>
+                        
+                        <p class="seccion_descripcion__parrafo"
+                           aria-label="Detalles de mis hobbies"
+                           aria-describedby="mis_hobbies_titulo">
+                           Lorem                        ipsum dolor, sit amet consectetur adipisicing
+                            elit. Dolores, eligendi. Facilis aliquam dolore
+                            , cupiditate obcaecati ad illum exercitationem
+                            blanditiis itaque repudiandae laudantium labo
+                            re voluptates doloribus dolorum, quasi volupta
+                            tum omnis iure!
+                        </p>
+                        
+                        <p class="seccion_descripcion__parrafo"
+                        aria-label="Detalles de mis hobbies"
+                        aria-describedby="mis_hobbies_titulo">
+                         Lorem ipsum dolor sit amet consectetur
+                          adipisicing elit. Delectus eaque, 
+                          quam aperiam optio, officia voluptatibus
+                           consequatur corrupti quod veniam adipisci
+                            unde sed blanditiis, mollitia sequi asperiores
+                         ad itaque tempore? Non.  </p>
+                    
+                    </div>
+                    <div class="seccion_descripcion__porta_retrato">
+                        <img class="seccion_descripcion__image"
+                        src="./assets/images/profile/malmsteen.png"
+                        alt="tocando guitarra"/>                   
+                    </div>
+                    
+                </section>
+            </div>
+        </article>
+
+
+        <article class="articulo proyectos" id="proyectos">
+            <h2 class="articulo__titulo">Mis proyectos</h2>
+            <div class="contenedor_tarjetas_grid">
+                <article                 class="tarjeta"
+                   aria-label="presentacion de proyecto personal"          >
+                   
+                   <img                  class="tarjeta__imagen"
+                   src="./assets/images/proyectos/calculadora.png"
+                   alt="imagen del proyecto"
+                   title="proyecto 1"                />
+                   
+                   <div class="tarjeta__contenido">
+                       <h3 class="tarjeta__titulo" id="titulo_proyecto_1">calculadora</h3>
+                       <span class="tarjeta__divisor"></span>
+                       <p 
+                        class="tarjeta__parrafo scroll scroll_fino"
+                        aria-label="descripcion de proyecto personal"
+                        aria-describedby="titulo_proyecto_1"               >esta calculadora se desarrollo con lenguaje python y un analizador sintactico
+                        opera con numeros reales y enteros.
+
+                  </p>
+                  <a href="#" class="boton boton_oscuro" target="_blank"     >Ver proyecto</a
+                  >
+                </div>
+              </article>
+              <!-- explicacion: pueden agregar tantas tarjetas como deseen, para ejemplificar agregaremos seis. 
+                Podemos hacerlo simplemente copiando y pegando. Yo en mi caso en algunas tarjetas agregare un pequeño cambio a los botones  -->
+              <article      class="tarjeta"
+                aria-label="presentacion de proyecto personal"              >
+                <img
+                  class="tarjeta__imagen"
+                  src="./assets/images/proyectos/dados.png"
+                  alt="imagen del proyecto"
+                  title="proyecto 2"
+                />
+                <div class="tarjeta__contenido">
+                  <h3 class="tarjeta__titulo" id="titulo_proyecto_2">juego de dados</h3>
+                  <span class="tarjeta__divisor"></span>
+                  <p
+                    class="tarjeta__parrafo scroll scroll_fino scroll_gris"
+                    aria-label="descripcion de proyecto personal"
+                    aria-describedby="titulo_proyecto_2"
+                  >
+                    este proyecto es un videojuego simple de 3 dados al azar, desarrollado en python
+                    nos deja realizar 3 tiros y alcanzar la puntuacion mas alta
+                  </p>
+                  <a href="#" class="boton" target="_blank">Ver proyecto</a>
+                </div>
+              </article>
+              
+            </div>
+          </article>
+
+        
+        
+
+
+
+
+
+
+        
+    </main>
+
+
+
+
+</body>
+</html>
