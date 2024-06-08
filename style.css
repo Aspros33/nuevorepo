@@ -1,16 +1,18 @@
-.destacado {color: red; background-color: aquamarine;}
-
+.imagen_titulo{ width: 80px;
+    height: 80px;
+}
 .navegacion {
     display: flex; 
-    height: 200px;
-    background-color: lightblue;
+    height: 100px;
+    background-color: rgb(178, 69, 206);
     align-items: center;
     justify-content: space-between;
   
 }
 
 .principal{
-    background-color: gray;
+    background-color:rgb(44, 209, 140) ;
+
 }
 
 .enlaces{
@@ -27,3 +29,20 @@
 .enlaces li a {
     text-decoration: none;
 }
+
+.encabezado{ position:absolute;
+    width: 100%;
+    left: 0;
+    top:0;
+      }
+
+.navegacion__titulo{
+    left: 50px;
+
+ }
+
+.seccion_descripcion__image { width: 300px;
+height: 300px;}
+
+.presentacion_texto{color: aqua;}
+
