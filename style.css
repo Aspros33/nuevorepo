@@ -1,15 +1,5 @@
-.imagen_titulo{ width: 80px;
-    height: 80px;
-}
-.navegacion {
-    display: flex; 
-    height: 100px;
-    background-color: rgb(178, 69, 206);
-    align-items: center;
-    justify-content: space-between;
-  
-}
 
+.encabezado{ width: 500px;}
 .principal{
     background-color:rgb(44, 209, 140) ;
 
